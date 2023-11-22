@@ -1,0 +1,11 @@
+*¿Qué tipo de red inalámbrica utiliza transmisores de baja potencia para una red de corto alcance, generalmente de 20 a 30 pies (6 a 9 metros)?
+Red inalámbrica de área metropolitana
+Red de área personal inalámbrica
+Red inalámbrica local
+Red de área amplia inalámbrica
+*Un técnico está solucionando problemas de una WLAN lenta y decide utilizar el enfoque de dividir el tráfico. ¿Qué dos parámetros tendrían que configurarse para hacer esto? (Elija dos.) Por favor, selecciona 2 respuestas correctas
+Configure un SSID común para ambas redes divididas.
+Configure el modo de seguridad en WPA Personal TKIP/AES para ambas redes.
+Configure la banda de 5 GHz para transmitir multimedia y tráfico sensible al tiempo.
+Configure el modo de seguridad en WPA Personal TKIP/AES para una red y WPA2 Personal AES para la otra red.
+Configure la banda de 2,4 GHz para el tráfico de Internet básico que no es urgente.

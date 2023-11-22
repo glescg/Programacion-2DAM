@@ -1,0 +1,61 @@
++¿Qué tipo de trama de administración puede emitir regularmente un AP?
+autenticación
+solicitud de sondeo
+-beacon
+respuesta de sondeo
++Un técnico está configurando el canal en un router inalámbrico en 1, 6 u 11. ¿Cuál es el propósito de ajustar el canal?
+-Para evitar interferencias de dispositivos inalámbricos cercanos
+Para proporcionar modos de seguridad más fuertes
+Para habilitar diferentes estándares 802.11
+Para deshabilitar la transmisión del SSID
+*¿Qué tipo de red inalámbrica utiliza transmisores de baja potencia para una red de corto alcance, generalmente de 20 a 30 pies (6 a 9 metros)?
+Red inalámbrica de área metropolitana
+-Red de área personal inalámbrica
+-Red inalámbrica local
+Red de área amplia inalámbrica
++Un administrador de red de una universidad está configurando el proceso de autenticación de usuario de WLAN. Los usuarios inalámbricos deben ingresar credenciales de nombre de usuario y contraseña que serán verificadas por un servidor. ¿Qué servidor proporcionaría dicho servicio?
+SNMP
+AAA
+-RADIUS
+NAT
++Un administrador de red ingresa los siguientes comandos en el switch SW1. SW1(config)# interface range fa0/5 – 10; SW1(config-if)# ip dhcp snooping limit rate 6. ¿Cuál es el efecto después de ingresar estos comandos?
+Si alguno de los puertos FastEthernet del 5 al 10 recibe más de 6 mensajes DHCP por segundo, el puerto seguirá funcionando y se enviará un mensaje de error al administrador de la red.
+Los puertos FastEthernet del 5 a 10 pueden recibir hasta 6 mensajes DHCP por segundo de cualquier tipo.
+-Los puertos FastEthernet 5 a 10 pueden recibir hasta 6 mensajes de descubrimiento DHCP por segundo.
+Si alguno de los puertos FastEthernet 5 al 10 recibe más de 6 mensajes DHCP por segundo, el puerto se cerrará.
++Consulte la exposición. El puerto Fa0/2 ya se ha configurado correctamente. El teléfono IP y la PC funcionan correctamente. ¿Qué configuración de switch sería la más apropiada para el puerto Fa0/2 si el administrador de red tiene los siguientes objetivos? Nadie puede desconectar el teléfono IP o la PC y conectar algún otro dispositivo cableado. Si se conecta un dispositivo diferente, el puerto Fa0/2 se cierra. El switch debe detectar automáticamente la dirección MAC del teléfono IP y la PC y agregar esas direcciones a la configuración en ejecución.
+SWA(config-if)# switchport port-security;SWA(config-if)# switchport port-security maximum 2;SWA(config-if)# switchport port-security mac-address sticky;SWA(config-if)# switchport port-security violation restrict
+SWA(config-if)# switchport port-security;SWA(config-if)# switchport port-security maximum 2;SWA(config-if)# switchport port-security mac-address sticky
+-SWA(config-if)# switchport port-security;SWA(config-if)# switchport port-security mac-address sticky
+SWA(config-if)# switchport port-security mac-address sticky;SWA(config-if)# switchport port-security maximum 2
++¿Cuál es la función que proporciona el protocolo CAPWAP en una red inalámbrica corporativa?
+-CAPWAP proporciona la encapsulación y el reenvío del tráfico de usuarios inalámbricos entre un punto de acceso y un controlador de LAN inalámbrica.
+CAPWAP proporciona el cifrado del tráfico de usuarios inalámbricos entre un punto de acceso y un cliente inalámbrico.
+CAPWAP proporciona conectividad entre un punto de acceso que usa direcciones IPv6 y un cliente inalámbrico que usa direcciones IPv4.
+CAPWAP crea un túnel en los puertos del Protocolo de control de transmisión (TCP) para permitir que un WLC configure un punto de acceso autónomo.
++¿Qué función o configuración de un switch lo hace vulnerable a los ataques de etiquetado doble de VLAN?
+Modo dúplex mixto habilitado para todos los puertos de forma predeterminada.
+-La VLAN nativa del puerto troncal es la misma que la VLAN de un usuario.
+La función de puerto de enlace troncal automático habilitada para todos los puertos de forma predeterminada.
+El tamaño limitado del espacio de memoria direccionable por contenido.
++¿Qué protocolo se debe utilizar para mitigar la vulnerabilidad de usar Telnet para administrar dispositivos de red de forma remota?
+TFTP
+-SSH
+SNMP
+SCP
++Consulte la exposición. La PC1 y la PC2 deberían poder obtener asignaciones de direcciones IP del servidor DHCP. ¿Cuántos puertos entre los switchs deben asignarse como puertos de confianza como parte de la configuración de inspección DHCP?
+-7
+3
+5
+1
++¿Qué componente, implementación o protocolo de control de acceso recopila e informa datos de uso?
+autorización
+802.1x
+autenticación
+-contabilidad
+*Un técnico está solucionando problemas de una WLAN lenta y decide utilizar el enfoque de dividir el tráfico. ¿Qué dos parámetros tendrían que configurarse para hacer esto? (Elija dos.) Por favor, selecciona 2 respuestas correctas
+Configure un SSID común para ambas redes divididas.
+Configure el modo de seguridad en WPA Personal TKIP/AES para ambas redes.
+-Configure la banda de 5 GHz para transmitir multimedia y tráfico sensible al tiempo.
+Configure el modo de seguridad en WPA Personal TKIP/AES para una red y WPA2 Personal AES para la otra red.
+-Configure la banda de 2,4 GHz para el tráfico de Internet básico que no es urgente.
