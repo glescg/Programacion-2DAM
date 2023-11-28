@@ -36,4 +36,10 @@ public class BBDDController {
         fileService.guardarArchivo(archivo);
         return "Archivo subido correctamente";
     }
+    @ResponseBody
+@PostMapping("/borrarArchivo")
+public void borrarArchivos(@RequestParam("archivo") String archivo) {
+    fileService.borrarArchivo(archivo);
+}
+
 }
