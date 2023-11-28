@@ -13,7 +13,7 @@ public class FileService {
     public void guardarArchivo(MultipartFile archivo) {
 //logica de archivos
 // Obtiene la ruta absoluta del directorio de trabajo (la raíz del proyecto)
-        String directorioDeTrabajo = System.getProperty("user.dir");
+        String directorioDeTrabajo = "DatabaseAD\\Files";
 
         // Construye la ruta completa para guardar el archivo en la raíz del proyecto
         Path rutaArchivo = Paths.get(directorioDeTrabajo, archivo.getOriginalFilename());
@@ -26,6 +26,22 @@ public class FileService {
             e.printStackTrace();
         }
     }
+    public void borrarArchivo(String nombreArchivo) {
+        String directorioDeTrabajo = "DatabaseAD\\Files";
+        Path rutaArchivo = Paths.get(directorioDeTrabajo, nombreArchivo);
+    
+        if (!Files.exists(rutaArchivo)) {
+            throw new RuntimeException("El archivo " + nombreArchivo + " no existe.");
+        } else {
+            try {
+                Files.deleteIfExists(rutaArchivo);
+            } catch (IOException e) {
+                throw new RuntimeException("Error al intentar borrar el archivo " + nombreArchivo, e);
+            }
+        }
+    }
+    
+ 
 
     // Puedes añadir más métodos según tus necesidades, como borrarArchivo, obtenerArchivo, etc.
 }
